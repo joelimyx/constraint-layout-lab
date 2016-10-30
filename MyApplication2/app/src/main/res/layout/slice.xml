@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="gibbslures.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textSize="20sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="Delivered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:text="Oct 20, 2016"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        app:layout_constraintLeft_toLeftOf="@+id/textView17"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="ProSeries Pencil Popper <span> 2oz..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView10"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="$21.81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView10"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintRight_toRightOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textSize="8sp"/>
+
+    <TextView
+        android:text="Pencil Popper <span>2 oz</span>"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:textSize="12sp"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView11"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <TextView
+        android:text="2x $17.39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView11"
+        android:layout_marginLeft="8dp"
+        android:textSize="8sp"
+        app:layout_constraintRight_toRightOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:text="View Shipment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView12"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:text="Purchased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="@+id/guideline12"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:text="ProSeries Pencil Popper <span> 2 oz..."
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView26"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintHorizontal_bias="0.0"/>
+
+    <TextView
+        android:text="$21.81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:textSize="8sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView13"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        android:id="@+id/floatingActionButton"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:backgroundTint="#A9A9A9"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        android:layout_marginBottom="8dp"
+        app:elevation="0dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/truck"
+        android:id="@+id/floatingActionButton2"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:elevation="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="16dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline12"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        android:layout_marginBottom="8dp"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline7"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="69dp"
+        tools:layout_editor_absoluteX="0dp"
+        app:layout_constraintGuide_begin="69dp"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline8"
+        app:layout_constraintGuide_begin="151dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="151dp"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/yellow_pencil"
+        android:id="@+id/imageView10"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/download"
+        android:id="@+id/imageView11"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        android:layout_marginBottom="8dp"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline10"
+        app:layout_constraintGuide_begin="215dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="215dp"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline11"
+        app:layout_constraintGuide_begin="286dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="286dp"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/semi_trailer_truck_icon"
+        android:id="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline12"
+        app:layout_constraintGuide_begin="320dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="320dp"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline13"
+        app:layout_constraintGuide_begin="417dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="417dp"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/yellow_pencil"
+        android:id="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/guideline13"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"/>
+</android.support.constraint.ConstraintLayout>
